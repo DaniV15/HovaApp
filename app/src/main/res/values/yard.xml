@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="yard_name">
+        <item>tükör</item>
+        <item>üdítős üveg</item>
+        <item>befőttesüveg</item>
+        <item>sörösüveg</item>
+        <item>üvegpalack</item>
+        <item>ablaküveg</item>
+        <item>akkumulátor (autó)</item>
+        <item>akkumulátor (telefon)</item>
+        <item>autógumi</item>
+        <item>bútor</item>
+        <item>elem (ceruza)</item>
+        <item>elem (gomb)</item>
+        <item>festék</item>
+        <item>festékes doboz</item>
+        <item>festékes vödör</item>
+        <item>gyógyszeres csomagolás (levél) (gyógyszerrel)</item>
+        <item>neoncső</item>
+        <item>olajos flakon</item>
+        <item>porcelán</item>
+        <item>olajos rongy</item>
+        <item>ruha</item>
+        <item>szőnyeg</item>
+        <item>villanykörte</item>
+
+    </string-array>
+</resources>

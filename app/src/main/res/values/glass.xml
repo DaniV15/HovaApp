@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="glass_name">
+        <item>tükör</item>
+        <item>üdítős üveg</item>
+        <item>befőttesüveg</item>
+        <item>sörösüveg</item>
+        <item>üvegpalack</item>
+        <item>ablaküveg</item>
+        <item>italos üveg</item>
+
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="selective_name">
+    <item>műanyag flakon</item>
+    <item>üdítős flakon</item>
+    <item>ásványvizes flakon</item>
+    <item>mosószeres flakon</item>
+    <item>tüsfürdős flakon</item>
+    <item>sörös flakon</item>
+    <item>háztartási fém</item>
+    <item>konzervdoboz</item>
+    <item>aludoboz</item>
+    <item>alumínium doboz</item>
+    <item>energiaitalos doboz</item>
+    <item>üdítőitalos doboz</item>
+    <item>dobozos ital</item>
+    <item>sörös doboz</item>
+    <item>füzet</item>
+    <item>írólap</item>
+    <item>fénymásolólap</item>
+    <item>újságpapír</item>
+    <item>újság</item>
+    <item>könyv</item>
+    <item>folyóirat</item>
+    <item>tejfölös doboz</item>
+    <item>tejfölös pohár</item>
+    <item>joghurtos doboz</item>
+    <item>joghurtos pohár</item>
+    <item>hullámpapír</item>
+    <item>csomagolópapír</item>
+    <item>kartondoboz</item>
+    <item>cipősdoboz</item>
+    <item>karton csomagolás</item>
+    <item>műanyag szatyor</item>
+    <item>albakos levél</item>
+    <item>alufólia</item>
+    <item>buborékfólia</item>
+    <item>ételes doboz (papír)</item>
+    <item>italos doboz</item>
+    <item>italos üveg</item>
+    <item>kupak (fém)</item>
+    <item>kupak (fém+műanyag)</item>
+    <item>kupak (műanyag)</item>
+    <item>tetra pakk (italos papírdoboz)</item>
+    <item>italos papírdoboz</item>
+    <item>tejesdoboz</item>
+    <item>gyümölcsleves doboz</item>
+    <item>tojástartó</item>
+    <item>tojástartó (műanyag)</item>
+    </string-array>
+
+
+
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="communal_name">
+        <item>papírzsebkendő</item>
+        <item>szalvéta</item>
+        <item>lemez (CD)</item>
+        <item>lemez (DVD)</item>
+        <item>videókazetta</item>
+        <item>élelmiszer maradvány</item>
+        <item>ceruza</item>
+        <item>chipses zacskó</item>
+        <item>élelmiszer</item>
+        <item>elviteles pohár</item>
+        <item>filctoll</item>
+        <item>fogkefe (bambusz)</item>
+        <item>fogkefe (műanyag)</item>
+        <item>folpack</item>
+        <item>gyermek játék (műanyag)</item>
+        <item>gyógyszeres csomagolás(levél)(üres)</item>
+        <item>gyümölcsös háló</item>
+        <item>hibajavító</item>
+        <item>hungarocell</item>
+        <item>kávéspohár (elviteles)</item>
+        <item>mosószivacs</item>
+        <item>parafadugó</item>
+        <item>szemüveg</item>
+        <item>szög</item>
+        <item>táska</item>
+        <item>teafilter</item>
+        <item>telefontok</item>
+        <item>tojáshéj</item>
+        <item>toll</item>
+        <item>zsírpapír</item>
+        <item>blokk</item>
+    </string-array>
+
+
+</resources>

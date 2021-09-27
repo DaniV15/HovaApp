@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="motivation">
+
+        <item>A műanyag újrahasznosításával kisebb az esélye annak, hogy a műanyagok az óceánokba végezzék.</item>
+        <item>A műanyag újrahasznosításával 88%-nyi energiát spórolunk meg az új műanyag előállításához képest.</item>
+        <item>1 millió tonna műanyag újrahasznosítása 1 millióval kevesebb autónak felel meg az utakon. </item>
+        <item>A műanyag nem bomlik le, csak aprózódik így bekerül a táplálékláncba mikroműanyag formájában.</item>
+        <item>A fém újrahasznosításával 70%-nyi energiát spórolunk meg a bányászathoz képest.</item>
+        <item>1 tonna fém előállítása bányászatból majdnem 2 tonna szén-dioxid, újrahasznosítással ez 70%-kal kevesebb.</item>
+        <item>Az alumínium újrahasznosításával 92%-nyi energiát spórolunk meg a bányászathoz képest. </item>
+        <item>1 tonna alumínium előállítása bányászatból több mint 4 tonna szén-dioxid, újrahasznosítással ez 92%-kal kevesebb.</item>
+        <item>A papír a legsűrűbben újrahasznosított anyag. </item>
+        <item>1 tonna papír újrahasznosításával 17 fát óvunk meg.</item>
+        <item>1 tonna papír újrahasznosításával 27 000 liter vizet spórolunk meg.</item>
+        <item>Magyarországon a keletkező hulladékok majdnem felét lerakókban helyezik el.</item>
+        <item>A Magyarországi hulladékégető körülbelül 45 ezer lakás éves villamosenergia-mennyiségét állítja elő.</item>
+        <item>A világ összesen ~7,2 millió tonna ételt dob ki.</item>
+        <item>Az Egyesült Királyságban körülbelül 500 millió műanyagzacskót használnak egy héten.</item>
+        <item>Az emberek körülbelül 1 millió műanyagflakont vásárolnak percenként, ennek a legnagyobb része az óceánban végzi.</item>
+        <item>Magyarországon egy  fő egy év alatt körülbelül 450 kg hulladékot termel.</item>
+        <item>A szelektíven gyűjtött hulladék útja nyomon követhető a begyűjtéstől a feldolgozásig, és biztosak lehetünk benne, hogy nem szennyezik a környezetünket.</item>
+        <item>Nem öntik össze a szelektív hulladékot a kommunális hulladékkal.</item>
+        <item>A fémeket szinte "végtelenszer" újra lehet hasznosítani.</item>
+
+
+    </string-array>
+
+
+</resources>

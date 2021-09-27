@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_menu"
+    app:startDestination="@id/main">
+
+    <fragment
+        android:id="@+id/main"
+        android:name="com.example.final3.Main"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/collection_points"
+        android:name="com.example.final3.Report"
+        android:label="report_main"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/report"
+        android:name="com.example.final3.Collection_points"
+        android:label="collection_points_main"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/waste_list"
+        android:name="com.example.final3.WasteFragment"
+        android:label="fragment_waste"
+        tools:layout="@layout/fragment_main" />
+</navigation>

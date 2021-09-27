@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="waste_name">
+        <item>műanyag flakon</item>
+        <item>üdítős flakon</item>
+        <item>ásványvizes flakon</item>
+        <item>mosószeres flakon</item>
+        <item>tüsfürdős flakon</item>
+        <item>sörös flakon</item>
+        <item>háztartási fém</item>
+        <item>konzervdoboz</item>
+        <item>aludoboz</item>
+        <item>alumínium doboz</item>
+        <item>energiaitalos doboz</item>
+        <item>üdítőitalos doboz</item>
+        <item>dobozos ital</item>
+        <item>sörös doboz</item>
+        <item>füzet</item>
+        <item>írólap</item>
+        <item>fénymásolólap</item>
+        <item>újságpapír</item>
+        <item>újság</item>
+        <item>könyv</item>
+        <item>folyóirat</item>
+        <item>tejfölös doboz</item>
+        <item>tejfölös pohár</item>
+        <item>joghurtos doboz</item>
+        <item>joghurtos pohár</item>
+        <item>hullámpapír</item>
+        <item>csomagolópapír</item>
+        <item>kartondoboz</item>
+        <item>cipősdoboz</item>
+        <item>karton csomagolás</item>
+        <item>műanyag szatyor</item>
+        <item>falevél</item>
+        <item>ágnyesedék</item>
+        <item>vágott fű</item>
+        <item>gyom</item>
+        <item>kertivagdalék</item>
+        <item>papírzsebkendő</item>
+        <item>szalvéta</item>
+        <item>lemez (CD)</item>
+        <item>lemez (DVD)</item>
+        <item>videókazetta</item>
+        <item>élelmiszer maradvány</item>
+        <item>tükör</item>
+        <item>üdítős üveg</item>
+        <item>befőttesüveg</item>
+        <item>sörösüveg</item>
+        <item>üvegpalack</item>
+        <item>albakos levél</item>
+        <item>ablaküveg</item>
+        <item>akkumulátor (autó)</item>
+        <item>akkumulátor (telefon)</item>
+        <item>alufólia</item>
+        <item>autógumi</item>
+        <item>buborékfólia</item>
+        <item>bútor</item>
+        <item>ceruza</item>
+        <item>chipses zacskó</item>
+        <item>élelmiszer</item>
+        <item>elem (ceruza)</item>
+        <item>elem (gomb)</item>
+        <item>elviteles pohár</item>
+        <item>ételes doboz (papír)</item>
+        <item>festék</item>
+        <item>festékes doboz</item>
+        <item>festékes vödör</item>
+        <item>filctoll</item>
+        <item>fogkefe (bambusz)</item>
+        <item>fogkefe (műanyag)</item>
+        <item>folpack</item>
+        <item>gyermek játék (műanyag)</item>
+        <item>gyógyszeres csomagolás (levél) (üres)</item>
+        <item>gyógyszeres csomagolás (levél) (gyógyszerrel)</item>
+        <item>gyümölcsös háló</item>
+        <item>hibajavító</item>
+        <item>hungarocell</item>
+        <item>italos doboz</item>
+        <item>italos üveg</item>
+        <item>kávéspohár (elviteles)</item>
+        <item>kupak (fém)</item>
+        <item>kupak (fém+műanyag)</item>
+        <item>kupak (műanyag)</item>
+        <item>mosószivacs</item>
+        <item>neoncső</item>
+        <item>olajos flakon</item>
+        <item>parafadugó</item>
+        <item>porcelán</item>
+        <item>olajos rongy</item>
+        <item>ruha</item>
+        <item>szemüveg</item>
+        <item>szög</item>
+        <item>szőnyeg</item>
+        <item>táska</item>
+        <item>teafilter</item>
+        <item>telefontok</item>
+        <item>tetra pakk (italos papírdoboz)</item>
+        <item>italos papírdoboz</item>
+        <item>tejesdoboz</item>
+        <item>gyümölcsleves doboz</item>
+        <item>tojáshéj</item>
+        <item>tojástartó</item>
+        <item>tojástartó (műanyag)</item>
+        <item>toll</item>
+        <item>villanykörte</item>
+        <item>zsírpapír</item>
+        <item>blokk</item>
+
+    </string-array>
+
+
+
+</resources>

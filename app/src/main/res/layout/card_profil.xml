@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/apk/res-auto"
+    xmlns:tools2="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    tools:cardElevation="3dp"
+    tools:cardUseCompatPadding="true">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/Cons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="1">
+
+        <TextView
+            android:id="@+id/User_City"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Város"
+            android:textSize="12dp"
+            tools:layout_constraintStart_toStartOf="parent"
+            tools:layout_constraintTop_toBottomOf="@+id/Locality_Name" />
+
+        <TextView
+            android:id="@+id/Locality_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:text="Otthon"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            tools:layout_constraintStart_toStartOf="parent"
+            tools:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/User_Address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:text="Az ön címe."
+            android:textSize="12dp"
+
+            tools:layout_constraintStart_toEndOf="@+id/User_City"
+            tools:layout_constraintTop_toBottomOf="@+id/Locality_Name" />
+
+        <ImageButton
+            android:id="@+id/Settings"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/edit"
+            tools:layout_constraintEnd_toEndOf="parent"
+            tools:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/Communal_Icon"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/kicsi_kommunalis"
+            tools:layout_constraintStart_toStartOf="parent"
+            tools:layout_constraintTop_toBottomOf="@+id/User_City" />
+
+        <TextView
+            android:id="@+id/Communal_Text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="8dp"
+            android:text="Kommunális edény ürítése:"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            tools:layout_constraintStart_toEndOf="@+id/Communal_Icon"
+            tools:layout_constraintTop_toBottomOf="@+id/User_Address" />
+
+        <TextView
+            android:id="@+id/Communal_Countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Holnap!"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            tools:layout_constraintEnd_toEndOf="parent"
+            tools:layout_constraintTop_toBottomOf="@+id/User_Address" />
+
+        <ImageView
+            android:id="@+id/Selective_Icon"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/kicsi_szelektiv"
+            tools:layout_constraintStart_toStartOf="parent"
+            tools:layout_constraintTop_toBottomOf="@+id/Communal_Icon" />
+
+        <ImageView
+            android:id="@+id/Glass_Icon"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/kicsi_uveg"
+            tools:layout_constraintStart_toStartOf="parent"
+            tools:layout_constraintTop_toBottomOf="@+id/Selective_Icon" />
+
+        <ImageView
+            android:id="@+id/Green_Icon"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/kicsi_zold"
+            tools:layout_constraintStart_toStartOf="parent"
+            tools:layout_constraintTop_toBottomOf="@+id/Glass_Icon" />
+
+        <TextView
+            android:id="@+id/Selective_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:text="Szelektív edény ürítése:"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            tools:layout_constraintStart_toEndOf="@+id/Selective_Icon"
+            tools:layout_constraintTop_toBottomOf="@+id/Communal_Text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:maxLines="1"
+            android:text="                                                                                                               "
+            android:textSize="14dp"
+            tools2:ignore="MissingConstraints"
+            tools:layout_constraintStart_toStartOf="parent"
+            tools:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Selective_CountDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:text="11 nap mulva"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            tools:layout_constraintEnd_toEndOf="parent"
+            tools:layout_constraintTop_toBottomOf="@+id/Communal_Countdown" />
+
+        <TextView
+            android:id="@+id/Glass_CountDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:text="11 nap mulva"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            tools:layout_constraintEnd_toEndOf="parent"
+            tools:layout_constraintTop_toBottomOf="@+id/Selective_CountDown" />
+
+
+
+        <TextView
+            android:id="@+id/Green_CountDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:text="11 nap mulva"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            tools:layout_constraintEnd_toEndOf="parent"
+            tools:layout_constraintTop_toBottomOf="@+id/Glass_CountDown" />
+
+        <TextView
+            android:id="@+id/Glass_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:text="Üveghulladék szállítása:"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            tools:layout_constraintStart_toEndOf="@+id/Glass_Icon"
+            tools:layout_constraintTop_toBottomOf="@+id/Selective_Text" />
+
+        <TextView
+            android:id="@+id/Green_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="6dp"
+            android:text="Zöldhulladék szállítása:"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            tools:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_constraintStart_toEndOf="@+id/Glass_Icon"
+            tools:layout_constraintTop_toBottomOf="@+id/Glass_Text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="                               "
+            android:textSize="0dp"
+            tools2:ignore="MissingConstraints"
+            tools2:layout_editor_absoluteY="16dp"
+            tools:layout_constraintStart_toStartOf="parent" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="6dp"
+            tools2:ignore="MissingConstraints"
+            tools2:layout_editor_absoluteX="174dp"
+            tools:layout_constraintTop_toBottomOf="@+id/Communal_Text" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="6dp"
+            tools2:ignore="MissingConstraints"
+            tools2:layout_editor_absoluteX="174dp"
+            tools:layout_constraintTop_toBottomOf="@+id/Selective_Text" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="6dp"
+            tools2:ignore="MissingConstraints"
+            tools2:layout_editor_absoluteX="174dp"
+            tools:layout_constraintTop_toBottomOf="@+id/Glass_Text" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="6dp"
+            tools2:ignore="MissingConstraints"
+            tools2:layout_editor_absoluteX="174dp"
+            tools:layout_constraintTop_toBottomOf="@+id/Communal_Text" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

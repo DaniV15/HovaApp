@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main"
+        android:icon="@drawable/home"
+        android:title="Kezdőlap" />
+
+    <item
+        android:id="@+id/report"
+        android:icon="@drawable/collection_point"
+        android:title="Gyűjtőpontok" />
+    <item
+        android:id="@+id/collection_points"
+        android:icon="@drawable/laundspeaker"
+        android:title="Bejelentés" />
+
+    <item
+        android:id="@+id/waste_list"
+        android:icon="@drawable/where"
+        android:title="Hova dobjam?" />
+
+</menu>
